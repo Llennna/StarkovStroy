@@ -1,46 +1,70 @@
+# 🛠️ StarkovStroy — Интернет-магазин инструментов
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?logo=vue.js)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)
+![Pinia](https://img.shields.io/badge/Pinia-2.x-FFD859?logo=pinia)
+![Status](https://img.shields.io/badge/status-active-success)
 
-## Recommended IDE Setup
+Полноценный интернет-магазин инструментов для дома и профессионального использования, созданный на **Vue 3** с использованием **Composition API**, **Pinia** и **Vue Router**.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## ✨ Демо
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=StarkovStroy+Preview" alt="Превью магазина" width="800"/>
+</p>
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🚀 Функциональность
 
-## Project Setup
+- 🏠 **Главная страница** — популярные товары, категории, преимущества
+- 📋 **Каталог товаров** — фильтрация по категориям, цене и наличию
+- 🔍 **Поиск** — быстрый поиск по названию и описанию
+- 🛒 **Корзина** — добавление, изменение количества, удаление товаров
+- 💳 **Оформление заказа** — форма с валидацией
+- 📱 **Адаптивный дизайн** — корректно отображается на всех устройствах
+- ⭐ **Рейтинг товаров** — звёздный рейтинг и отзывы
 
-```sh
+---
+
+## 🛠️ Технологии
+
+| Технология | Описание |
+|------------|----------|
+| [Vue 3](https://vuejs.org/) | Прогрессивный JavaScript-фреймворк |
+| [Vite](https://vitejs.dev/) | Быстрый инструмент сборки |
+| [Pinia](https://pinia.vuejs.org/) | Современный state management |
+| [Vue Router](https://router.vuejs.org/) | Официальный роутер для Vue.js |
+
+---
+
+## 📦 Установка и запуск
+
+### Требования
+- Node.js 16.x или выше
+- npm или yarn
+
+### Клонирование репозитория
+
+```bash
+git clone https://github.com/Llennna/StarkovStroy.git
+cd StarkovStroy
+
+```
+### Установка зависимостей
+
+```bash
 npm install
+
 ```
 
-### Compile and Hot-Reload for Development
+### Запуск в режиме разработки
 
-```sh
+```bash
 npm run dev
+
 ```
+- Открой http://localhost:5173 в браузере.
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-=======
-# StarkovStroy
->>>>>>> 496135884452e3ace12755487c2617d8614103b4
