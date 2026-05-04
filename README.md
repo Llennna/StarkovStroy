@@ -12,7 +12,7 @@
 ## ✨ Демо
 
 <p align="center">
-  <img src="https://allwebs.ru/image/Screenshot-2026-05-04-232104.rRfR3A" alt="Превью магазина" width="800"/>
+  <img src="/src/picture/preview.png" alt="Превью магазина" width="800"/>
 </p>
 
 ---
