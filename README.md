@@ -70,6 +70,7 @@ npm run dev
 
 ### 📁 Структура проекта
 
+```bash
 StarkovStroy/
 ├── public/                 # Статические файлы
 ├── src/
