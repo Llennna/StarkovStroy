@@ -1,4 +1,3 @@
-# StarkovStroy
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -42,3 +41,6 @@ npm run build
 ```sh
 npm run lint
 ```
+=======
+# StarkovStroy
+>>>>>>> 496135884452e3ace12755487c2617d8614103b4
