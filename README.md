@@ -68,3 +68,30 @@ npm run dev
 ```
 - Открой http://localhost:5173 в браузере.
 
+### 📁 Структура проекта
+
+StarkovStroy/
+├── public/                 # Статические файлы
+├── src/
+│   ├── assets/            # Изображения, шрифты
+│   ├── components/        # Переиспользуемые компоненты
+│   │   ├── Header.vue     # Шапка сайта с навигацией
+│   │   ├── Footer.vue     # Подвал сайта
+│   │   ├── ProductCard.vue # Карточка товара
+│   │   └── CartModal.vue  # Модальное окно корзины
+│   ├── views/             # Страницы
+│   │   ├── Home.vue       # Главная
+│   │   ├── Catalog.vue    # Каталог
+│   │   ├── ProductDetail.vue # Карточка товара
+│   │   ├── Cart.vue       # Корзина
+│   │   └── Checkout.vue   # Оформление заказа
+│   ├── store/             # Хранилище Pinia
+│   │   └── index.js       # Товары, корзина, фильтры
+│   ├── router/            # Маршрутизация
+│   │   └── index.js
+│   ├── App.vue            # Корневой компонент
+│   └── main.js            # Точка входа
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
